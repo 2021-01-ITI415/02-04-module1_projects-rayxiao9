@@ -19,6 +19,7 @@ public class Slingshot2 : MonoBehaviour
     private Rigidbody projectileRigidbody;
 
     public Text scoreGT;
+    public Text shotsGT;
 
     static public Vector3 LAUNCH_POS {
         get {
@@ -79,14 +80,14 @@ public class Slingshot2 : MonoBehaviour
         Vector3 projPos = launchPos + mouseDelta;
         projectile.transform.position = projPos;
         if (Input.GetMouseButtonUp(0)) {
+            Prototype1 protScript = Camera.main.GetComponent<Prototype1>();
             // The mouse has been released
             aimingMode = false;
             projectileRigidbody.isKinematic = false;
             projectileRigidbody.velocity = -mouseDelta * velocityMult;
             FollowCam.POI = projectile;
             projectile = null;
-            // MissionDemolition.ShotFired();
-            // ProjectileLine.S.poi = projectile;
+            Prototype1.ShotFired();
         }
     }
 }
