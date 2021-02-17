@@ -27,7 +27,9 @@ public class Launcher : MonoBehaviour
 
     void LaunchTarget() {
         GameObject target = Instantiate<GameObject>(targetPrefab);
-        target.transform.position = transform.position;
+        Vector3 position = this.transform.position;
+        position.x -= 1.2f;
+        target.transform.position = position;
         Invoke("LaunchTarget", secondsBetweenTargetLaunch);
         }
 
