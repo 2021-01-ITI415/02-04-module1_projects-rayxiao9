@@ -498,7 +498,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 4444711459419536644, guid: 700632cb0c5093b4383627e045f12f45, type: 3}
   speed: 5
   leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
+  chanceToChangeDirections: 0.05
   secondsBetweenTargetLaunch: 1.2
 --- !u!136 &931147783
 CapsuleCollider:
@@ -848,7 +848,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 5943
+    m_Bits: 14135
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -910,7 +910,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 4444711459419536644, guid: 700632cb0c5093b4383627e045f12f45, type: 3}
   speed: 5
   leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
+  chanceToChangeDirections: 0.05
   secondsBetweenTargetLaunch: 1
 --- !u!136 &1615007248
 CapsuleCollider:
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 4444711459419536644, guid: 700632cb0c5093b4383627e045f12f45, type: 3}
   speed: 5
   leftAndRightEdge: 10
-  chanceToChangeDirections: 0.1
+  chanceToChangeDirections: 0.05
   secondsBetweenTargetLaunch: 1.4
 --- !u!136 &2007524233
 CapsuleCollider:

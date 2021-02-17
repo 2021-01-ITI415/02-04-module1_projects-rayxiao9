@@ -17,4 +17,11 @@ public class Projectile : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    void OnCollisionEnter(Collision coll) {
+        GameObject collidedWith = coll.gameObject;
+        if (collidedWith.tag == "Target") {
+            Destroy(collidedWith);
+        }
+    }
 }
