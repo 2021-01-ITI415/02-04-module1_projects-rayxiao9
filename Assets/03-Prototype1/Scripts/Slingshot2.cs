@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Slingshot2 : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class Slingshot2 : MonoBehaviour
     public bool aimingMode;
     private Rigidbody projectileRigidbody;
 
+    public Text scoreGT;
+
     static public Vector3 LAUNCH_POS {
         get {
             if (S == null) return Vector3.zero;
@@ -31,6 +34,18 @@ public class Slingshot2 : MonoBehaviour
         launchPoint.SetActive(false);
         launchPos = launchPointTrans.position;
     }
+
+    void Start(){
+        // Find a reference to the ScoreCounter GameObject
+        GameObject scoreGO = GameObject.Find("ScoreCounter");
+
+        // Get the Text Component of that GameObject
+        scoreGT = scoreGO.GetComponent<Text>();
+
+        // Set the starting number of points to 0
+        scoreGT.text = "0";
+    }
+
     void OnMouseEnter() {
         //print("Slingshot:OnMouseEnter()");
         launchPoint.SetActive(true);
