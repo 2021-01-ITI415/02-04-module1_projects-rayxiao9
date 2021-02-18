@@ -40,7 +40,7 @@ public class Projectile : MonoBehaviour
 
             scoreGT.text = score.ToString();
 
-            if (score > HighScore.score) {
+            if (score > HighScorePrototype.score) {
                 HighScore.score = score;
             }
         }

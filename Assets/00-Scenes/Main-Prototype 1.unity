@@ -246,7 +246,7 @@ Transform:
   - {fileID: 931147786}
   - {fileID: 2007524236}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560884056
 GameObject:
@@ -708,7 +708,7 @@ MonoBehaviour:
   speed: 8
   leftAndRightEdge: 10
   chanceToChangeDirections: 0.05
-  secondsBetweenTargetLaunch: 1.2
+  secondsBetweenTargetLaunch: 1.1
 --- !u!136 &931147783
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -779,13 +779,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931147780}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: -350.85132, y: -159.66583, z: -2.492237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264950607}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!1 &980062595
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +881,7 @@ RectTransform:
   - {fileID: 1184158938}
   - {fileID: 898967095}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1372,13 +1372,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615007246}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: -345.85132, y: -159.66583, z: -2.492237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264950607}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!54 &1615007252
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1459,7 +1459,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2007524230
 GameObject:
@@ -1514,7 +1514,7 @@ MonoBehaviour:
   speed: 3
   leftAndRightEdge: 10
   chanceToChangeDirections: 0.05
-  secondsBetweenTargetLaunch: 1.4
+  secondsBetweenTargetLaunch: 1.2
 --- !u!136 &2007524233
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1585,13 +1585,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007524230}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
   m_LocalPosition: {x: -340.85132, y: -159.66583, z: -2.492237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264950607}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!1 &2097604437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'HighScore: 1000'
+  m_Text: 'High Score: 1000'
 --- !u!222 &2097604440
 CanvasRenderer:
   m_ObjectHideFlags: 0
